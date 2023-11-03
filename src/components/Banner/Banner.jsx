@@ -9,26 +9,23 @@ export default function Banner() {
             <div className="col-12">
               <div className="home-banner-wrapper row align-items-center">
                 <div className="col-12 col-lg-6 col-xl-7 home-banner-text-col position-relative">
-                  <div className="sub-heading d-flex align-items-center">
-                    <img src="img/orangeDot.png" alt="orange-dot" />
-                    <p>I AM DESIGNER</p>
-                  </div>
                   <div className="animate-heading">
                     <h1 className="black-color h1 home-one-title ah-headline">
-                      Creative Design and Web{" "}
+                      Hi, Welcome to{" "}
                       <span className="orange-color">
                         <span className="ah-words-wrapper">
-                          <span className="is-visible"> Solutions</span>
+                          <span className="is-visible">My space</span>
                         </span>
                       </span>
                       <br />
                     </h1>
                   </div>
                   <p className="h5 line-height-7 mt-20 secondary-black fw-400">
-                    Nam libero tempore, cum soluta nobis est eligendi optio
-                    cumque nihil impedit quo minus id quod maxime placeat facere
-                    possimus, omnis voluptas assumenda est, omnis dolor
-                    repellendus. Temporibus autem quibusdam et.
+                    I am Anik, a 23 years old Software Engineer with 1+ years of
+                    experience. Currently, I am working at Goflysmart Holidays
+                    as a Software Engineer. My expertise is in Frontend Web
+                    Development also backend. Currently, I am learning React
+                    Native.
                   </p>
                   <a
                     className="btn_effect btn home-banner-btn orange-btn mt-50"
@@ -68,7 +65,7 @@ export default function Banner() {
                   />
                   <img
                     className="img-fluid position-relative z-index-10 home-banner-img"
-                    src="img/bannerImg.png"
+                    src="img/aniksaha1.png"
                     alt="banner-image"
                   />
                 </div>

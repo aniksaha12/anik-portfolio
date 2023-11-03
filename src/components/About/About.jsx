@@ -10,56 +10,51 @@ export default function About() {
           <div className="row">
             <div className="col-12">
               <div className="row align-items-center">
-                <div className="about-image-col col-12 col-lg-6 text-center">
+                {/* <div className="about-image-col col-12 col-lg-6 text-center">
                   <div className="img-overlay mx-auto mx-lg-0">
                     <img
                       className="img-fluid"
-                      src="img/about.png"
+                      src="img/aniksaha1.png"
                       alt="about image"
                     />
                   </div>
-                </div>
+                </div> */}
                 <div className="about-text-col col-12 col-lg-6">
                   <div className="about-text-top">
                     <div className="section-heading">
                       <div className="sub-heading d-flex align-items-center">
-                        <img src="img/orangeDot.png" alt="orange-dot" />
-                        <p>About Me</p>
+                        <h2>About Me</h2>
                       </div>
-                      <h2 className="black-color line-height-3 h2">
-                        I Can Design Anything You Want
-                      </h2>
                     </div>
                     <p className="secondary-black line-height-7 mt-20">
-                      Nam libero tempore, cum soluta nobis est eligendi optio
-                      cumque nihil impedit quo minus id quod maxime placeat
-                      facere possimus, omnis voluptas assumenda est, omnis dolor
-                      repellendus. Temporibus autem quibusdam et aut officiis.
-                      Nam libero tempore, cum soluta nobis est eligendi optio
-                      cumque nihil impedit.
+                      I am Anik, a 23 years old Software Engineer with 1+ years
+                      of experience. Currently, I am working at Goflysmart
+                      Holidays as a Software Engineer. My expertise is in
+                      Frontend Web Development also backend. Currently, I am
+                      learning React Native.
                     </p>
                   </div>
                   <div className="row row-mobile-margin gy-3 gy-sm-0 mt-50">
-                    <div className="col-12 col-sm-6 col-lg-6 d-flex align-items-center">
+                    {/* <div className="col-12 col-sm-6 col-lg-6 d-flex align-items-center">
                       <div className="mr-10">
                         <img src="img/aboutIconOne.png" alt="about icon one" />
                       </div>
                       <div className="about-complete-project">
                         <h4 className="fw-700 orange-color h4">
-                          <span className="counter">350</span>+
+                          <span className="counter">15</span>+
                         </h4>
                         <h4 className="fw-500 black-color h4">
                           Complete Project
                         </h4>
                       </div>
-                    </div>
+                    </div> */}
                     <div className="col-12 col-sm-6 col-lg-6 d-flex align-items-center">
                       <div className="mr-10">
                         <img src="img/aboutIconTwo.png" alt="about icon two" />
                       </div>
                       <div className="about-years-experience">
                         <h4 className="fw-700 orange-color h4">
-                          <span className="counter">16</span>+
+                          <span className="counter">1</span>+
                         </h4>
                         <h4 className="fw-500 black-color h4">
                           Year of experience
@@ -107,9 +102,9 @@ export default function About() {
                     </div>
                   </div>
                   <a
-                    data-aos="fade-up"
-                    data-aos-delay={100}
-                    data-aos-duration={1500}
+                    // data-aos="fade-up"
+                    // data-aos-delay={100}
+                    // data-aos-duration={1500}
                     className="btn btn_effect home-banner-btn orange-btn mt-50"
                     href="resume.html"
                   >
