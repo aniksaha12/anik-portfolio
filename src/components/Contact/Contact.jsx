@@ -10,12 +10,11 @@ export default function Contact() {
               <div className="home-contact-wrapper">
                 <div className="section-heading-middle">
                   <div className="sub-heading d-flex align-items-center mx-auto">
-                    <img src="img/orangeDot.png" alt="orange-dot" />
-                    <p>My Contact</p>
-                  </div>
                   <h2 className="black-color line-height-3 h2 text-uppercase text-center">
-                    I WANT TO HEAR FROM YOU
+                  Contact Me
                   </h2>
+                  </div>
+                  
                 </div>
                 <div className="home-contact-info-container row row-mobile-margin mt-50 align-items-start">
                   <div className="col-12 col-md-8">

@@ -1,8 +1,10 @@
 import React from "react";
+import Header from "../Header/Header";
 
 export default function Resume() {
   return (
     <div>
+    <Header/>
       <section id="resume" className="resume">
         <div className="container">
           <div className="row">
@@ -235,6 +237,8 @@ export default function Resume() {
           </div>
         </div>
       </section>
+      
     </div>
+  
   );
 }
