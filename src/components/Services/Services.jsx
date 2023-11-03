@@ -20,7 +20,7 @@ export default function Services() {
                 <div className="service-grid-item text-center">
                   <img
                     className="service-item-img"
-                    src="img/serviceOne.png"
+                    src="img/html5.png"
                     alt="service-img-one"
                   />
                   <h3 className="h3 fw-500 service-item-heading black-color">
