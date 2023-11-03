@@ -1672,6 +1672,18 @@ header {
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 24px;
 }
+.contact-grid {
+    display: grid;
+    grid-gap: 24px;
+    grid-template-columns: repeat(4, 1fr);
+
+}
+.contact-grid-item {
+    padding: 50px 30px;
+    /* border: 1px solid #FFE2D1;
+    border-radius: 6px;
+    transition: all .3s; */
+}
 
 .service-grid-item {
     padding: 50px 30px;
