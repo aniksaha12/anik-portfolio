@@ -10,46 +10,57 @@ export default function Contact() {
               <div className="home-contact-wrapper">
                 <div className="section-heading-middle">
                   <div className="sub-heading d-flex align-items-center mx-auto">
-                  <h2 className="black-color line-height-3 h2 text-uppercase text-center">
-                  Contact Me
-                  </h2>
+                    <h2 className="black-color line-height-3 h2 text-uppercase text-center">
+                      Contact Me
+                    </h2>
                   </div>
-                  <div className="contact-grid-container mt-5 row-mobile-margin">
-                  <div className="contact-grid-item text-center">
-                    <img
-                      className="html-item-img"
-                      src="img/html5.png"
-                      alt="html-img-one"
-                      style={{ width: "100px", height: "100px" }}
-                    />
-                  </div>
-                  <div className="contact-grid-item text-center">
-                    <img
-                      className="html-item-img"
-                      src="img/html5.png"
-                      alt="html-img-one"
-                      style={{ width: "100px", height: "100px" }}
-                    />
-                  </div>
-                  <div className="contact-grid-item text-center">
-                    <img
-                      className="html-item-img"
-                      src="img/html5.png"
-                      alt="html-img-one"
-                      style={{ width: "100px", height: "100px" }}
-                    />
-                  </div>
-                  <div className="contact-grid-item text-center">
-                    <img
-                      className="html-item-img"
-                      src="img/html5.png"
-                      alt="html-img-one"
-                      style={{ width: "100px", height: "100px" }}
-                    />
-                  </div>
+                  <div className="contact-grid-container mt-1 d-flex align-items-center">
+                    <div className="contact-grid-item text-center">
+                      <a href="https://github.com/aniksaha12" target="_blank">
+                        <img
+                          className="html-item-img"
+                          src="img/git.png"
+                          alt="html-img-one"
+                          style={{ width: "50px", height: "50px" }}
+                        />
+                      </a>
+                    </div>
+
+                    <div className="contact-grid-item text-center">
+                      <a
+                        href="https://www.linkedin.com/in/anik-saha-197259168/"
+                        target="_blank"
+                      >
+                        <img
+                          className="html-item-img"
+                          src="img/linkdin.png"
+                          alt="html-img-one"
+                          style={{ width: "50px", height: "50px" }}
+                        />
+                      </a>
+                    </div>
+                    <div className="contact-grid-item text-center">
+                      <a href="https://twitter.com/Aniksaha30" target="_blank">
+                        <img
+                          className="html-item-img"
+                          src="img/x.png"
+                          alt="html-img-one"
+                          style={{ width: "50px", height: "50px" }}
+                        />
+                      </a>
+                    </div>
+                    <div className="contact-grid-item text-center">
+                      <a href="mailto:aniksaha859@gmail.com">
+                        <img
+                          className="html-item-img"
+                          src="img/mail.png"
+                          alt="html-img-one"
+                          style={{ width: "50px", height: "50px" }}
+                        />
+                      </a>
+                    </div>
                   </div>
                 </div>
-                  
               </div>
             </div>
           </div>
