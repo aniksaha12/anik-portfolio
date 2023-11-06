@@ -55,19 +55,19 @@ export default function Header() {
             <nav>
               <ul className="menu">
                 <li>
-                  <a href="#home">Home</a>
+                  <a className="menu-link" href="/">Home</a>
                 </li>
                 <li>
-                  <a href="#about">Projects</a>
+                  <a className="menu-link" href="/projects">Projects</a>
                 </li>
                 <li>
-                  <a href="#services">Experiences</a>
+                  <a className="menu-link" href="/experiences">Experiences</a>
                 </li>
                 <li>
-                  <a href="#resume">Blog</a>
+                  <a className="menu-link" href="/blog">Blog</a>
                 </li>
                 <li>
-                  <a href="#contact">Contact</a>
+                  <a href="mailto:aniksaha859@gmail.com">Contact</a>
                 </li>
               </ul>
             </nav>
@@ -90,17 +90,17 @@ export default function Header() {
                     </li>
                     <li className="px-2 px-lg-3 ">
                       <a className="menu-link" href="/projects">
-                      Projects
+                        Projects
                       </a>
                     </li>
                     <li className="px-2 px-lg-3 ">
                       <a className="menu-link" href="/experiences">
-                      Experiences
+                        Experiences
                       </a>
                     </li>
                     <li className="px-2 px-lg-3 ">
                       <a className="menu-link" href="/blog">
-                      Blog
+                        Blog
                       </a>
                     </li>
                   </ul>
@@ -108,14 +108,15 @@ export default function Header() {
               </div>
               {/* header button */}
               <div className="header-btn-wrapper">
-                <a className="btn orange-btn btn_effect" href="#contact">
-                  <span className="z-1 position-relative">contact</span>
+                <a className="btn orange-btn btn_effect">
+                  <a href="mailto:aniksaha859@gmail.com">
+                    <span className="z-1 position-relative">contact</span>
+                  </a>
                 </a>
               </div>
             </div>
           </div>
         </header>
-
       </>
     </div>
   );
