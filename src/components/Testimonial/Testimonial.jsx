@@ -6,22 +6,22 @@ import "slick-carousel/slick/slick-theme.css";
 export default function Testimonial() {
   const testimonialData = [
     {
-      name: "John K. Meraz",
-      title: "CTO, Xyz Group",
+      name: "Deepankar Mondal",
+      title: "Teach Lead @p360",
       text: "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature fr45 BC, making it over 2000 years old.",
-      image: "img/testimonialOne.png",
+      image: "img/deepankar.jpg",
     },
     {
-      name: "Johan Smith",
-      title: "CEO, Abc Agency",
+      name: "Rana Ankit Singh",
+      title: "UI Developer @Goflysmart Holiday",
       text: "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature fr45 BC, making it over 2000 years old.",
-      image: "img/testimonialTwo.png",
+      image: "img/rana.jpg",
     },
     {
-      name: "Robert E. Wolf",
-      title: "Director, Techso",
+      name: "Debarshi Dey",
+      title: "System Developer @appycodes",
       text: "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature fr45 BC, making it over 2000 years old.",
-      image: "img/testimonialThree.png",
+      image: "img/debarshi.jpg",
     },
   ];
 
@@ -42,7 +42,6 @@ export default function Testimonial() {
               <div className="testimonial-wrapper">
                 <div className="section-heading-middle">
                   <div className="sub-heading d-flex align-items-center mx-auto">
-                    {/* <img src="img/orangeDot.png" alt="orange-dot" /> */}
                     <h2 className="black-color line-height-3 h2 text-uppercase text-center">
                       Testimonial
                     </h2>
