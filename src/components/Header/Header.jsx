@@ -55,16 +55,24 @@ export default function Header() {
             <nav>
               <ul className="menu">
                 <li>
-                  <a className="menu-link" href="/">Home</a>
+                  <a className="menu-link" href="/">
+                    Home
+                  </a>
                 </li>
                 <li>
-                  <a className="menu-link" href="/projects">Projects</a>
+                  <a className="menu-link" href="/projects">
+                    Projects
+                  </a>
                 </li>
                 <li>
-                  <a className="menu-link" href="/experiences">Experiences</a>
+                  <a className="menu-link" href="/experiences">
+                    Experiences
+                  </a>
                 </li>
                 <li>
-                  <a className="menu-link" href="/blog">Blog</a>
+                  <a className="menu-link" href="/blog">
+                    Blog
+                  </a>
                 </li>
                 <li>
                   <a href="mailto:aniksaha859@gmail.com">Contact</a>
