@@ -5,25 +5,18 @@ import Skills from "../Skills/Skills";
 export default function About() {
   return (
     <div>
-      <section className="about">
+      <section className="about ">
         <div className="container">
           <div className="row">
             <div className="col-12">
               <div className="row align-items-center">
-                {/* <div className="about-image-col col-12 col-lg-6 text-center">
-                  <div className="img-overlay mx-auto mx-lg-0">
-                    <img
-                      className="img-fluid"
-                      src="img/aniksaha1.png"
-                      alt="about image"
-                    />
-                  </div>
-                </div> */}
-                <div className="about-text-col col-12 col-lg-6">
+                <div className="about-text-col col-12">
                   <div className="about-text-top">
-                    <div className="section-heading">
-                      <div className="sub-heading d-flex align-items-center">
-                        <h2>About Me</h2>
+                    <div className="section-heading-middle">
+                      <div className="sub-heading d-flex align-items-center mx-auto">
+                      <h2 className="black-color line-height-3 h2 text-uppercase text-center">
+                    About me
+                  </h2>
                       </div>
                     </div>
                     <p className="secondary-black line-height-7 mt-20">
@@ -48,7 +41,7 @@ export default function About() {
                         </h4>
                       </div>
                     </div> */}
-                    <div className="col-12 col-sm-6 col-lg-6 d-flex align-items-center">
+                    {/* <div className="col-12 col-sm-6 col-lg-6 d-flex align-items-center">
                       <div className="mr-10">
                         <img src="img/aboutIconTwo.png" alt="about icon two" />
                       </div>
@@ -60,26 +53,26 @@ export default function About() {
                           Year of experience
                         </h4>
                       </div>
-                    </div>
+                    </div> */}
                   </div>
                   <div
-                    data-aos="fade-up"
-                    data-aos-delay={0}
-                    data-aos-duration={1500}
-                    className="row flex-column row-mobile-margin mt-50"
+                    // data-aos="fade-up"
+                    // data-aos-delay={0}
+                    // data-aos-duration={1500}
+                    className="row flex-column row-mobile-margin mt-60"
                   >
                     <div className="col-12 mb-0 mb-20 ">
                       <div className="row">
                         <div className="col-12 col-sm-6 col-lg-6">
                           <div className="mb-20 d-flex align-items-center">
                             <i className="fa-regular fa-square-check mr-10 h6 orange-color" />
-                            <p>Work simple and cline design</p>
+                            <p>Work simple and clean code</p>
                           </div>
                         </div>
                         <div className="col-12 col-sm-6 col-lg-6">
                           <div className="mb-20 d-flex align-items-center">
                             <i className="fa-regular fa-square-check mr-10 h6 orange-color" />
-                            <p>Web Design Full stack</p>
+                            <p>Web Development Full stack</p>
                           </div>
                         </div>
                       </div>
@@ -95,23 +88,13 @@ export default function About() {
                         <div className="col-12 col-sm-6 col-lg-6">
                           <div className="d-flex align-items-center">
                             <i className="fa-regular fa-square-check mr-10 h6 orange-color" />
-                            <p>Unlimited Revisions</p>
+                            <p>Learn quick</p>
                           </div>
                         </div>
                       </div>
                     </div>
                   </div>
-                  <a
-                    // data-aos="fade-up"
-                    // data-aos-delay={100}
-                    // data-aos-duration={1500}
-                    className="btn btn_effect home-banner-btn orange-btn mt-50"
-                    href="resume.html"
-                  >
-                    <span className="position-relative z-1">
-                      Download My CV
-                    </span>
-                  </a>
+                  
                 </div>
               </div>
             </div>

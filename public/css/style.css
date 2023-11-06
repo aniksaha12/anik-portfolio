@@ -1548,6 +1548,14 @@ header {
 /* 4. About Me css */
 .about {
     padding: 130px 0px 65px 0px;
+   
+    
+}
+
+.center-contact-section{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
 }
 
 .about-resume-page {
