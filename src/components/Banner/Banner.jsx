@@ -29,7 +29,8 @@ export default function Banner() {
                   </p>
                   <a
                     className="btn_effect btn home-banner-btn orange-btn mt-50"
-                    href="resume.html"
+                    href="/"
+                    download="AniksahaCv.pdf"
                   >
                     <span className="z-1 position-relative">
                       Download My CV

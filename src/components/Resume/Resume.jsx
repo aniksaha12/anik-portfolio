@@ -4,7 +4,7 @@ import Header from "../Header/Header";
 export default function Resume() {
   return (
     <div>
-    <Header/>
+      <Header />
       <section id="resume" className="resume">
         <div className="container">
           <div className="row">
@@ -15,7 +15,7 @@ export default function Resume() {
                     <img src="img/orangeDot.png" alt="orange-dot" />
                     <p>My Resume</p>
                   </div> */}
-                  
+
                   <h2 className="black-color line-height-3 h2 text-uppercase text-center">
                     1+ YEARS OF EXPERIENCE
                   </h2>
@@ -37,7 +37,7 @@ export default function Resume() {
                   <div className="col-12 col-lg-10">
                     {/* resume education row */}
                     <div
-                    //   data-aos="fade-up"
+                      //   data-aos="fade-up"
                       // data-aos-delay={100}
                       // data-aos-duration={800}
                       className="resume-education bg-white"
@@ -58,12 +58,11 @@ export default function Resume() {
                         {/* education second column */}
                         <div className="col-lg-4 resume-second-item">
                           <h4 className="h4 text-black fw-500">
-                           Higher Secondary Education (Science)
+                            Higher Secondary Education (Science)
                           </h4>
                           <p className="p secondary-black fw-400 line-height-7 mt-10">
-                             (2016 - 2018)
+                            (2016 - 2018)
                           </p>
-                          
                         </div>
                         {/* education third column */}
                         <div className="col-lg-4 resume-third-item">
@@ -71,7 +70,7 @@ export default function Resume() {
                             Secondary School Education
                           </h4>
                           <p className="p secondary-black fw-400 line-height-7 mt-10">
-                             (2006 - 2016)
+                            (2006 - 2016)
                           </p>
                           {/* <p className="p secondary-black fw-400 line-height-7 mt-20">
                             Pomnis voluptas assumenda est, omnis dolor
@@ -82,15 +81,17 @@ export default function Resume() {
                     </div>
                     {/* resume skills row */}
                     <div
-                    //   data-aos="fade-up"
-                    //   data-aos-delay={200}
-                    //   data-aos-duration={800}
+                      //   data-aos="fade-up"
+                      //   data-aos-delay={200}
+                      //   data-aos-duration={800}
                       className="resume-skills bg-white mt-4"
                     >
                       <div className="row">
                         {/* skills first column */}
                         <div className="col-lg-4 resume-first-item">
-                          <h4 className="h4 text-black fw-500">Frontend Development</h4>
+                          <h4 className="h4 text-black fw-500">
+                            Frontend Development
+                          </h4>
                           <div className="row mt-10 justify-content-between">
                             <p className="col-10 p secondary-black fw-400 line-height-7 skill-name position-relative">
                               HTML
@@ -119,7 +120,7 @@ export default function Resume() {
                         {/* skills second column */}
                         <div className="col-lg-4 resume-second-item">
                           <h4 className="h4 text-black fw-500">
-                            Web Developer
+                            Web Development
                           </h4>
                           <div className="row mt-10 justify-content-between">
                             <p className="col-10 p secondary-black fw-400 line-height-7 skill-name position-relative">
@@ -138,25 +139,37 @@ export default function Resume() {
                             </p>
                           </div>
                           <div className="row justify-content-between mt-10">
-                            <p className="p secondary-black fw-400 line-height-7 col-10 skill-name position-relative">
-                              Nodejs
+                            <p className="col-10 p secondary-black fw-400 line-height-7 skill-name position-relative">
+                              React Native
                             </p>
-                            <p className="p col-2 secondary-black fw-400 line-height-7">
-                              80%
+                            <p className="col-2 p secondary-black fw-400 line-height-7">
+                              50%
                             </p>
                           </div>
                         </div>
                         {/* skills thirdt column */}
                         <div className="col-lg-4 resume-third-item">
                           <h4 className="h4 text-black fw-500">
-                            App Development
+                            Backend Development
                           </h4>
                           <div className="row mt-10 justify-content-between">
-                            <p className="col-10 p secondary-black fw-400 line-height-7 skill-name position-relative">
-                              React Native
+                            <p className="p secondary-black fw-400 line-height-7 col-10 skill-name position-relative">
+                              Nodejs
                             </p>
-                            <p className="col-2 p secondary-black fw-400 line-height-7">
-                              50%
+                            <p className="p col-2 secondary-black fw-400 line-height-7">
+                              80%
+                            </p>
+                            <p className="p secondary-black fw-400 line-height-7 col-10 skill-name position-relative">
+                              Mysql
+                            </p>
+                            <p className="p col-2 secondary-black fw-400 line-height-7">
+                              70%
+                            </p>
+                            <p className="p secondary-black fw-400 line-height-7 col-10 skill-name position-relative">
+                              Azure Cloud
+                            </p>
+                            <p className="p col-2 secondary-black fw-400 line-height-7">
+                              80%
                             </p>
                           </div>
                           {/* <div className="row justify-content-between mt-10">
@@ -180,26 +193,26 @@ export default function Resume() {
                     </div>
                     {/* resume experience row */}
                     <div
-                    //   data-aos="fade-up"
-                    //   data-aos-delay={300}
-                    //   data-aos-duration={800}
+                      //   data-aos="fade-up"
+                      //   data-aos-delay={300}
+                      //   data-aos-duration={800}
                       className="resume-education mt-4 bg-white"
                     >
                       <div className="row">
                         {/* experience first column */}
                         <div className="col-lg-4 resume-first-item">
                           <h4 className="h4 text-black fw-500">
-                            Full stack Developer  Intern
+                            Full stack Developer Intern
                           </h4>
                           <p className="p secondary-black fw-400 line-height-7 mt-10">
-                              ineuron.ai - (09/2022 - 12/2022)
+                            ineuron.ai - (09/2022 - 12/2022)
                           </p>
                           <p className="p secondary-black fw-400 line-height-7 mt-20">
-                          Developed the new UI of the shop site using ReactJs.Developed 
-                          the connection of admin to the database.
-                          Developed a responsive 
-                          OTP and Email verification.Developed two user login systems 
-                          like buyers and sellers.
+                            Developed the new UI of the shop site using
+                            ReactJs.Developed the connection of admin to the
+                            database. Developed a responsive OTP and Email
+                            verification.Developed two user login systems like
+                            buyers and sellers.
                           </p>
                         </div>
                         {/* experience second column */}
@@ -211,9 +224,8 @@ export default function Resume() {
                             Goflysmart Holidays - (03/2023 - 04/2023)
                           </p>
                           <p className="p secondary-black fw-400 line-height-7 mt-20">
-                          Create a virtual network in Azure cloud service. 
-                          API management in the Azure cloud. Create Api in Nodejs.
-
+                            Create a virtual network in Azure cloud service. API
+                            management in the Azure cloud. Create Api in Nodejs.
                           </p>
                         </div>
                         {/* experience third column */}
@@ -222,13 +234,14 @@ export default function Resume() {
                             Software Engineer
                           </h4>
                           <p className="p secondary-black fw-400 line-height-7 mt-10">
-                          Goflysmart Holidays - (04/2023 - Present)
+                            Goflysmart Holidays - (04/2023 - Present)
                           </p>
                           <p className="p secondary-black fw-400 line-height-7 mt-20">
-                          New flight series application integration in React.js from scratch. 
-                           created each and every functionality for flight booking system.
-                           optimize the application. 
-                           System architecture in azure cloud and deploy in it with configure database
+                            New flight series application integration in
+                            React.js from scratch. created each and every
+                            functionality for flight booking system. optimize
+                            the application. System architecture in azure cloud
+                            and deploy in it with configure database
                           </p>
                         </div>
                       </div>
@@ -240,8 +253,6 @@ export default function Resume() {
           </div>
         </div>
       </section>
-      
     </div>
-  
   );
 }

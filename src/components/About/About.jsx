@@ -14,9 +14,9 @@ export default function About() {
                   <div className="about-text-top">
                     <div className="section-heading-middle">
                       <div className="sub-heading d-flex align-items-center mx-auto">
-                      <h2 className="black-color line-height-3 h2 text-uppercase text-center">
-                    About me
-                  </h2>
+                        <h2 className="black-color line-height-3 h2 text-uppercase text-center">
+                          About me
+                        </h2>
                       </div>
                     </div>
                     <p className="secondary-black line-height-7 mt-20">
@@ -27,7 +27,7 @@ export default function About() {
                       learning React Native.
                     </p>
                   </div>
-                  <div className="row row-mobile-margin gy-3 gy-sm-0 mt-50">
+                  <div className="row row-mobile-margin gy-3 gy-sm-0 mt-30">
                     {/* <div className="col-12 col-sm-6 col-lg-6 d-flex align-items-center">
                       <div className="mr-10">
                         <img src="img/aboutIconOne.png" alt="about icon one" />
@@ -55,12 +55,7 @@ export default function About() {
                       </div>
                     </div> */}
                   </div>
-                  <div
-                    // data-aos="fade-up"
-                    // data-aos-delay={0}
-                    // data-aos-duration={1500}
-                    className="row flex-column row-mobile-margin mt-60"
-                  >
+                  <div className="row flex-column row-mobile-margin mt-60">
                     <div className="col-12 mb-0 mb-20 ">
                       <div className="row">
                         <div className="col-12 col-sm-6 col-lg-6">
@@ -94,7 +89,6 @@ export default function About() {
                       </div>
                     </div>
                   </div>
-                  
                 </div>
               </div>
             </div>
