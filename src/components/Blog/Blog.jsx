@@ -4,7 +4,6 @@ import Header from "../Header/Header";
 export default function Blog() {
   return (
     <div>
-      <Header />
       <section id="blog" className="blogs">
         <div className="container">
           <div className="row">

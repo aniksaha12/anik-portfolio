@@ -4,7 +4,6 @@ import Header from "../Header/Header";
 export default function Projects() {
   return (
     <div>
-      <Header />
       <section id="portfolio" className="portfolio">
         <div className="container">
           <div className="row">
