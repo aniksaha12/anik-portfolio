@@ -37,38 +37,29 @@ export default function Banner() {
                     </span>
                   </a>
                   <div className="banner-particle-one-container">
-                    <img
+                    {/* <img
                       className="position-absolute banner-particle-one d-none d-lg-inline"
                       src="img/particleOne.png"
                       alt="banner particle one"
-                    />
+                    /> */}
                   </div>
                   <div className="banner-particle-two-container">
-                    <img
+                    {/* <img
                       className="position-absolute banner-particle-two delay-one"
                       src="img/particleTwo.png"
                       alt="banner particle two"
-                    />
+                    /> */}
                   </div>
                 </div>
                 <div className="col-12 col-lg-6 col-xl-5 text-center position-relative home-banner-img-col">
-                  <div className="banner-particle-one-container">
-                    <img
-                      className="position-absolute banner-particle-one d-lg-none"
-                      src="img/particleOne.png"
-                      alt="banner particle one"
-                    />
-                  </div>
-                  <img
-                    className="position-absolute home-banner-shape bg-move-3d"
-                    src="img/homeNannerShape.png"
-                    alt="banner-shape"
-                  />
+                  <div className="rounded-image">
                   <img
                     className="img-fluid position-relative z-index-10 home-banner-img"
-                    src="img/aniksaha1.png"
+                    src="img/aniksaha3.png"
                     alt="banner-image"
                   />
+                  </div>
+                  
                 </div>
               </div>
             </div>

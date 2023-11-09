@@ -12,13 +12,16 @@ function App() {
       <div className="App">
         <Router>
         <Header/>
+        <div className="mt-5">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/projects" element={<Projects />} />
             <Route path="/experiences" element={<Resume />} />
             <Route path="/blog" element={<Blog />} />
           </Routes>
+          </div>
         </Router>
+        
       </div>
     </>
   );

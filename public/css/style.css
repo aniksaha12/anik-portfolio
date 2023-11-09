@@ -31,6 +31,7 @@ body {
 
 :root {
     --orange-color: #FF6B00;
+    /* --orange-color: rgb(43, 5, 139) */
     --black-color: #101010;
     --secondary-black-color: #606060;
     --light-color: #FFF5EF;
@@ -1408,8 +1409,15 @@ header {
 }
 
 /* 3. Home Banner css */
+.rounded-image {
+    border-radius: 50%; /* This creates a circular shape */
+    width: 350px; /* Adjust the width as needed */
+    height: 350px; /* Adjust the height as needed */
+  }
 .home-banner {
-    background: linear-gradient(256.24deg, rgba(255, 195, 152, 0.2) 26.56%, rgba(255, 234, 190, 0.3) 100%);
+    /* background: linear-gradient(256.24deg, rgba(255, 195, 152, 0.2) 26.56%, rgba(255, 234, 190, 0.3) 100%); */
+    background: linear-gradient(256.24deg, rgba(216, 194, 179, 0.2) 26.56%, rgba(252, 242, 222, 0.3) 100%);
+
 }
 
 .home-two-banner {
