@@ -59,13 +59,13 @@ export default function About() {
                     <div className="col-12 mb-0 mb-20 ">
                       <div className="row">
                         <div className="col-12 col-sm-6 col-lg-6">
-                          <div className="mb-20 d-flex align-items-center">
+                          <div className="mb-20 d-flex align-items-center justify-content-center">
                             <i className="fa-regular fa-square-check mr-10 h6 orange-color" />
                             <p>Work simple and clean code</p>
                           </div>
                         </div>
                         <div className="col-12 col-sm-6 col-lg-6">
-                          <div className="mb-20 d-flex align-items-center">
+                          <div className="mb-20 d-flex align-items-center justify-content-center">
                             <i className="fa-regular fa-square-check mr-10 h6 orange-color" />
                             <p>Web Development Full stack</p>
                           </div>
@@ -75,13 +75,13 @@ export default function About() {
                     <div className="col-12">
                       <div className="row">
                         <div className="col-12 col-sm-6 col-lg-6">
-                          <div className="d-flex align-items-center mb-20">
+                          <div className="d-flex align-items-center mb-20 justify-content-center">
                             <i className="fa-regular fa-square-check mr-10 h6 orange-color" />
                             <p>New idea and user friendly design</p>
                           </div>
                         </div>
                         <div className="col-12 col-sm-6 col-lg-6">
-                          <div className="d-flex align-items-center">
+                          <div className="d-flex align-items-center justify-content-center">
                             <i className="fa-regular fa-square-check mr-10 h6 orange-color" />
                             <p>Learn quick</p>
                           </div>

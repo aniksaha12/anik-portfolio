@@ -1700,6 +1700,11 @@ header {
     border-radius: 6px;
     transition: all .3s; */
 }
+@media only screen and (max-width: 760px) {
+    .contact-grid-item {
+        padding: 10px 10px;
+    }
+}
 
 .service-grid-item {
     padding: 50px 30px;

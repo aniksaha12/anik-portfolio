@@ -3,7 +3,7 @@ import React from "react";
 export default function Banner() {
   return (
     <div>
-      <section className="home-banner position-relative">
+      <section className="home-banner position-relative py-4">
         <div className="container-fluid custom-container">
           <div className="row">
             <div className="col-12">

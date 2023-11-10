@@ -14,6 +14,7 @@ export default function Header() {
     fontSize: "20px",
   };
 
+
   return (
     <div>
       <>
@@ -27,11 +28,11 @@ export default function Header() {
         <link rel="stylesheet" href="css/imgal.min.css" />
         <link rel="stylesheet" href="css/style.css" />
         <link rel="stylesheet" href="css/responsive.css" />
-        <Navbar expand="lg" className="mx-auto" style={{ width: "200px" }}>
+        <Navbar expand="lg" className="mx-auto">
           <Container>
             <Navbar.Brand></Navbar.Brand>
             <Navbar.Toggle aria-controls="navbar-nav" />
-            <Navbar.Collapse id="navbar-nav">
+            <Navbar.Collapse id="navbar-nav" className="text-center justify-content-end">
               <Nav className="ml-auto">
                 <Nav.Link as={Link} to="/" style={HeaderTextSize}>
                   Home
