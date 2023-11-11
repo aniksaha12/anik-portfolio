@@ -19,9 +19,9 @@ export default function Contact() {
                       <a href="https://github.com/aniksaha12" target="_blank">
                         <img
                           className="html-item-img"
-                          src="img/git.png"
+                          src="img/github.png"
                           alt="html-img-one"
-                          style={{ width: "50px", height: "50px" }}
+                          style={{ width: "60px", height: "60px" }}
                         />
                       </a>
                     </div>
@@ -33,9 +33,9 @@ export default function Contact() {
                       >
                         <img
                           className="html-item-img"
-                          src="img/linkdin.png"
+                          src="img/linkedin.png"
                           alt="html-img-one"
-                          style={{ width: "50px", height: "50px" }}
+                          style={{ width: "60px", height: "60px" }}
                         />
                       </a>
                     </div>
@@ -43,9 +43,9 @@ export default function Contact() {
                       <a href="https://twitter.com/Aniksaha30" target="_blank">
                         <img
                           className="html-item-img"
-                          src="img/x.png"
+                          src="img/Twitter.png"
                           alt="html-img-one"
-                          style={{ width: "50px", height: "50px" }}
+                          style={{ width: "60px", height: "60px" }}
                         />
                       </a>
                     </div>

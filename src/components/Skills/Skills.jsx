@@ -17,7 +17,7 @@ export default function Skills() {
                   <div className="service-grid-item text-center">
                     <img
                       className="html-item-img"
-                      src="img/html5.png"
+                      src="img/html.png"
                       alt="html-img-one"
                       style={{ width: "140px", height: "120px" }}
                     />
@@ -25,7 +25,7 @@ export default function Skills() {
                   <div className="service-grid-item text-center">
                     <img
                       className="css-item-img"
-                      src="img/css.png"
+                      src="img/css3.png"
                       alt="css-img-one"
                       style={{ width: "140px", height: "120px" }}
                     />
@@ -49,7 +49,7 @@ export default function Skills() {
                   <div className="service-grid-item text-center">
                     <img
                       className="reactjs-item-img"
-                      src="img/reactjs1.png"
+                      src="img/reactjs.png"
                       alt="reactjs1-img-one"
                       style={{ width: "140px", height: "120px" }}
                     />
@@ -65,7 +65,7 @@ export default function Skills() {
                   <div className="service-grid-item text-center">
                     <img
                       className="azure-item-img"
-                      src="img/azure.png"
+                      src="img/Azure.png"
                       alt="azure-img-one"
                       style={{ width: "140px", height: "120px" }}
                     />
@@ -74,6 +74,38 @@ export default function Skills() {
                     <img
                       className="Nextjs-item-img"
                       src="img/Nextjs.png"
+                      alt="Nextjs-img-one"
+                      style={{ width: "140px", height: "120px" }}
+                    />
+                  </div>
+                  <div className="service-grid-item text-center">
+                    <img
+                      className="Nextjs-item-img"
+                      src="img/expressjs.png"
+                      alt="Nextjs-img-one"
+                      style={{ width: "140px", height: "120px" }}
+                    />
+                  </div>
+                  <div className="service-grid-item text-center">
+                    <img
+                      className="Nextjs-item-img"
+                      src="img/mongodb.png"
+                      alt="Nextjs-img-one"
+                      style={{ width: "140px", height: "120px" }}
+                    />
+                  </div>
+                  <div className="service-grid-item text-center">
+                    <img
+                      className="Nextjs-item-img"
+                      src="img/mysql.png"
+                      alt="Nextjs-img-one"
+                      style={{ width: "140px", height: "120px" }}
+                    />
+                  </div>
+                  <div className="service-grid-item text-center">
+                    <img
+                      className="Nextjs-item-img"
+                      src="img/firebase.png"
                       alt="Nextjs-img-one"
                       style={{ width: "140px", height: "120px" }}
                     />

@@ -4,91 +4,46 @@ import Skills from "../Skills/Skills";
 
 export default function About() {
   return (
-    <div>
+    <>
       <section className="about ">
         <div className="container">
-          <div className="row">
-            <div className="col-12">
-              <div className="row align-items-center">
-                <div className="about-text-col col-12">
-                  <div className="about-text-top">
-                    <div className="section-heading-middle">
-                      <div className="sub-heading d-flex align-items-center mx-auto">
-                        <h2 className="black-color line-height-3 h2 text-uppercase text-center">
-                          About me
-                        </h2>
-                      </div>
-                    </div>
-                    <p className="secondary-black line-height-7 mt-20">
-                      I am Anik, a 23 years old Software Engineer with 1+ years
-                      of experience. Currently, I am working at Goflysmart
-                      Holidays as a Software Engineer. My expertise is in
-                      Frontend Web Development also backend. Currently, I am
-                      learning React Native.
-                    </p>
-                  </div>
-                  <div className="row row-mobile-margin gy-3 gy-sm-0 mt-30">
-                    {/* <div className="col-12 col-sm-6 col-lg-6 d-flex align-items-center">
-                      <div className="mr-10">
-                        <img src="img/aboutIconOne.png" alt="about icon one" />
-                      </div>
-                      <div className="about-complete-project">
-                        <h4 className="fw-700 orange-color h4">
-                          <span className="counter">15</span>+
-                        </h4>
-                        <h4 className="fw-500 black-color h4">
-                          Complete Project
-                        </h4>
-                      </div>
-                    </div> */}
-                    {/* <div className="col-12 col-sm-6 col-lg-6 d-flex align-items-center">
-                      <div className="mr-10">
-                        <img src="img/aboutIconTwo.png" alt="about icon two" />
-                      </div>
-                      <div className="about-years-experience">
-                        <h4 className="fw-700 orange-color h4">
-                          <span className="counter">1</span>+
-                        </h4>
-                        <h4 className="fw-500 black-color h4">
-                          Year of experience
-                        </h4>
-                      </div>
-                    </div> */}
-                  </div>
-                  <div className="row flex-column row-mobile-margin mt-60">
-                    <div className="col-12 mb-0 mb-20 ">
-                      <div className="row">
-                        <div className="col-12 col-sm-6 col-lg-6">
-                          <div className="mb-20 d-flex align-items-center justify-content-center">
-                            <i className="fa-regular fa-square-check mr-10 h6 orange-color" />
-                            <p>Work simple and clean code</p>
-                          </div>
-                        </div>
-                        <div className="col-12 col-sm-6 col-lg-6">
-                          <div className="mb-20 d-flex align-items-center justify-content-center">
-                            <i className="fa-regular fa-square-check mr-10 h6 orange-color" />
-                            <p>Web Development Full stack</p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="col-12">
-                      <div className="row">
-                        <div className="col-12 col-sm-6 col-lg-6">
-                          <div className="d-flex align-items-center mb-20 justify-content-center">
-                            <i className="fa-regular fa-square-check mr-10 h6 orange-color" />
-                            <p>New idea and user friendly design</p>
-                          </div>
-                        </div>
-                        <div className="col-12 col-sm-6 col-lg-6">
-                          <div className="d-flex align-items-center justify-content-center">
-                            <i className="fa-regular fa-square-check mr-10 h6 orange-color" />
-                            <p>Learn quick</p>
-                          </div>
-                        </div>
-                      </div>
+          <div className="col-12">
+            <div className="row align-items-center">
+              <div className="about-text-col col-12">
+                <div className="about-text-top">
+                  <div className="section-heading-middle">
+                    <div className="sub-heading d-flex align-items-center mx-auto">
+                      <h2 className="black-color line-height-3 h2 text-uppercase text-center">
+                        About me
+                      </h2>
                     </div>
                   </div>
+                  <h5 className="secondary-black line-height-7 mt-20">
+                    I'm 23 years old <strong>Software Engineer.</strong> My
+                    expertise is in{" "}
+                    <strong>
+                      Frontend Web Development as well as backend.
+                    </strong>{" "}
+                    I am dedicated to enhancing our web applications for better
+                    user-friendliness and simplicity.
+                    <br />
+                    <br />
+                    Apart from that, I also participate in hackathons and open
+                    source projects. I was one of the finalists in the{" "}
+                    <strong>Smart India Hackathon 2020.</strong> Additionally, I
+                    contributed to{" "}
+                    <strong>Hacktoberfest in 2021 and 2022.</strong>
+                    <br />
+                    <br />I am also a{" "}
+                    <strong>
+                      member of the IEEE Bangalore section and an ex-student
+                      member of IEEE.
+                    </strong>{" "}
+                    I am the{" "}
+                    <strong>primary author of IEEE Digital Explorer.</strong> I
+                    have also primary authored a research paper that is{" "}
+                    <strong>published in the IEEE Digital Explorer.</strong>
+                  </h5>
                 </div>
               </div>
             </div>
@@ -97,6 +52,6 @@ export default function About() {
       </section>
       <Skills />
       <Testimonial />
-    </div>
+    </>
   );
 }

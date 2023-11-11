@@ -18,36 +18,18 @@ export default function Banner() {
                   <br />
                 </h1>
               </div>
-              <p className="h5 line-height-7 mt-20 secondary-black fw-400 sm-p">
-                I am Anik, a 23 years old Software Engineer with 1+ years of
-                experience. Currently, I am working at Goflysmart Holidays
-                as a Software Engineer. My expertise is in Frontend Web
-                Development also backend. Currently, I am learning React
-                Native.
+              <p className="h4 line-height-7 mt-20 secondary-black fw-400 sm-p">
+                I'm <strong>Anik Saha,</strong> a Software Engineer at <strong>Goflysmart Holidays.</strong>  My
+                focus is on crafting user-friendly web applications that are
+                widely accepted. I utilize tools like <strong>React.js </strong> and <strong>Node.js</strong>.
               </p>
               <a
                 className="btn_effect btn home-banner-btn orange-btn mt-50"
                 href="/"
                 download="AniksahaCv.pdf"
               >
-                <span className="z-1 position-relative">
-                  Download My CV
-                </span>
+                <span className="z-1 position-relative">Download My CV</span>
               </a>
-              <div className="banner-particle-one-container">
-                {/* <img
-                  className="position-absolute banner-particle-one d-none d-lg-inline"
-                  src="img/particleOne.png"
-                  alt="banner particle one"
-                /> */}
-              </div>
-              <div className="banner-particle-two-container">
-                {/* <img
-                  className="position-absolute banner-particle-two delay-one"
-                  src="img/particleTwo.png"
-                  alt="banner particle two"
-                /> */}
-              </div>
             </div>
             <div className="col-lg-6 col-xl-5 text-center position-relative home-banner-img-col">
               <div className="rounded-image">
