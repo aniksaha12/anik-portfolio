@@ -65,7 +65,7 @@ export default function Skills() {
                   <div className="service-grid-item text-center">
                     <img
                       className="azure-item-img"
-                      src="img/Azure.png"
+                      src="img/azure.png"
                       alt="azure-img-one"
                       style={{ width: "140px", height: "120px" }}
                     />

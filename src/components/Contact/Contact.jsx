@@ -55,7 +55,7 @@ export default function Contact() {
                           className="html-item-img"
                           src="img/mail.png"
                           alt="html-img-one"
-                          style={{ width: "50px", height: "50px" }}
+                          style={{ width: "60px", height: "60px" }}
                         />
                       </a>
                     </div>
