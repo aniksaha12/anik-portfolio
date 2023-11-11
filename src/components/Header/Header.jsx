@@ -2,10 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
-import NavDropdown from "react-bootstrap/NavDropdown";
 import Container from "react-bootstrap/Container";
-import Button from "react-bootstrap/Button";
-
 import "bootstrap/dist/css/bootstrap.min.css";
 
 export default function Header() {
@@ -13,7 +10,6 @@ export default function Header() {
     fontWeight: "bold",
     fontSize: "20px",
   };
-
 
   return (
     <div>
@@ -32,7 +28,10 @@ export default function Header() {
           <Container>
             <Navbar.Brand></Navbar.Brand>
             <Navbar.Toggle aria-controls="navbar-nav" />
-            <Navbar.Collapse id="navbar-nav" className="text-center justify-content-end">
+            <Navbar.Collapse
+              id="navbar-nav"
+              className="text-center justify-content-end"
+            >
               <Nav className="ml-auto">
                 <Nav.Link as={Link} to="/" style={HeaderTextSize}>
                   Home

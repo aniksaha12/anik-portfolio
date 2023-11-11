@@ -1704,6 +1704,9 @@ header {
     .contact-grid-item {
         padding: 10px 10px;
     }
+    .sm-p {
+        padding-right: 20px;
+    }
 }
 
 .service-grid-item {
