@@ -23,13 +23,13 @@ export default function Banner() {
                 focus is on crafting user-friendly web applications that are
                 widely accepted. I utilize tools like <strong>React.js </strong> and <strong>Node.js</strong>.
               </p>
-              <a
+              {/* <a
                 className="btn_effect btn home-banner-btn orange-btn mt-50"
                 href="/"
                 download="AniksahaCv.pdf"
               >
                 <span className="z-1 position-relative">Download My CV</span>
-              </a>
+              </a> */}
             </div>
             <div className="col-lg-6 col-xl-5 text-center position-relative home-banner-img-col">
               <div className="rounded-image">

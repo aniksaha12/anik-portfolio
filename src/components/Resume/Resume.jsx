@@ -9,79 +9,42 @@ export default function Resume() {
             <div className="col-12">
               <div className="resume-wrapper">
                 <div className="section-heading-middle">
-                  {/* <div className="sub-heading d-flex align-items-center mx-auto">
-                    <img src="img/orangeDot.png" alt="orange-dot" />
-                    <p>My Resume</p>
-                  </div> */}
-
-                  <h2 className="black-color line-height-3 h2 text-uppercase text-center">
-                    1+ YEARS OF EXPERIENCE
+                  <h2 className="black-color line-height-3 text-uppercase text-center">
+                    EXPERIENCES
                   </h2>
                 </div>
                 <div className="row mt-50 row-mobile-margin">
                   <div className="col-12 col-lg-2">
                     <div className="resume-topics h-100 flex-column justify-content-center position-relative">
                       <h3 className="h3 line-height-3 resume-topic-item resume-topic-one fw-500 text-black position-absolute">
-                        Education
+                        Software Engineer
                       </h3>
                       <h3 className="h3 line-height-3 resume-topic-item resume-topic-two fw-500 text-black position-absolute">
-                        Software Skills
+                        Software Engineer Intern
                       </h3>
                       <h3 className="h3 line-height-3 resume-topic-item resume-topic-three fw-500 text-black position-absolute">
-                        Experience
+                        Full-stack Intern
                       </h3>
                     </div>
                   </div>
-                  <div className="col-12 col-lg-10">
-                    {/* resume education row */}
+                  <div className="col-lg-4">
                     <div
-                      //   data-aos="fade-up"
-                      // data-aos-delay={100}
-                      // data-aos-duration={800}
                       className="resume-education bg-white"
                     >
                       <div className="row">
                         {/* education first column */}
-                        <div className="col-lg-4 resume-first-item">
+                        <div className="resume-first-item">
                           <h4 className="h4 text-black fw-500">
-                            B-Tech in Electronics and Communication Engineering
+                          Software Engineer Goflysmart Holidays
                           </h4>
-                          <p className="p secondary-black fw-400 line-height-7 mt-10">
-                            (2018 - 2022)
+                          <p className="secondary-black fw-400 line-height-7 mt-2">
+                            (March 2023 - Present)
                           </p>
-                          {/* <p className="p secondary-black fw-400 line-height-7 mt-20">
-                           Siliguri
-                          </p> */}
-                        </div>
-                        {/* education second column */}
-                        <div className="col-lg-4 resume-second-item">
-                          <h4 className="h4 text-black fw-500">
-                            Higher Secondary Education (Science)
-                          </h4>
-                          <p className="p secondary-black fw-400 line-height-7 mt-10">
-                            (2016 - 2018)
-                          </p>
-                        </div>
-                        {/* education third column */}
-                        <div className="col-lg-4 resume-third-item">
-                          <h4 className="h4 text-black fw-500">
-                            Secondary School Education
-                          </h4>
-                          <p className="p secondary-black fw-400 line-height-7 mt-10">
-                            (2006 - 2016)
-                          </p>
-                          {/* <p className="p secondary-black fw-400 line-height-7 mt-20">
-                            Pomnis voluptas assumenda est, omnis dolor
-                            repellendus.
-                          </p> */}
+                          <p className="">Skill: </p>
                         </div>
                       </div>
                     </div>
-                    {/* resume skills row */}
                     <div
-                      //   data-aos="fade-up"
-                      //   data-aos-delay={200}
-                      //   data-aos-duration={800}
                       className="resume-skills bg-white mt-4"
                     >
                       <div className="row">
