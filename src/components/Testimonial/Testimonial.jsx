@@ -7,22 +7,24 @@ export default function Testimonial() {
   const testimonialData = [
     {
       name: "Deepankar Mondal",
-      title: "Teach Lead @p360",
-      text: "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature fr45 BC, making it over 2000 years old.",
+      title: "Teach Lead @Tripfactory",
+      text: "I've had the pleasure of working alongside Anik Saha, and I wholeheartedly recommend him. Anik is a dynamic all-rounder, consistently embracing new technologies with enthusiasm. His dedication to delivering top-tier work and his exceptional teamwork make him a standout colleague. Anik's positive attitude and continuous pursuit of excellence make him an asset to any project." +
+          " Highly recommend Anik for his skills, eagerness to learn, and collaborative spirit! ",
       image: "img/deepankar.jpg",
     },
-    {
-      name: "Rana Ankit Singh",
-      title: "UI Developer @Goflysmart Holiday",
-      text: "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature fr45 BC, making it over 2000 years old.",
-      image: "img/rana.jpg",
-    },
-    {
-      name: "Debarshi Dey",
-      title: "System Developer @appycodes",
-      text: "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature fr45 BC, making it over 2000 years old.",
-      image: "img/debarshi.jpg",
-    },
+
+    // {
+    //   name: "Rana Ankit Singh",
+    //   title: "UI Developer @Goflysmart Holiday",
+    //   text: "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature fr45 BC, making it over 2000 years old.",
+    //   image: "img/rana.jpg",
+    // },
+    // {
+    //   name: "Debarshi Dey",
+    //   title: "System Developer @appycodes",
+    //   text: "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature fr45 BC, making it over 2000 years old.",
+    //   image: "img/debarshi.jpg",
+    // },
   ];
 
   const settings = {
