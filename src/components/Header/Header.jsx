@@ -35,9 +35,9 @@ export default function Header() {
               <Nav.Link as={Link} to="/" style={HeaderTextSize}>
                 Home
               </Nav.Link>
-              {/* <Nav.Link as={Link} to="/experiences" style={HeaderTextSize}>
+              <Nav.Link as={Link} to="/experiences" style={HeaderTextSize}>
                 Experiences
-              </Nav.Link> */}
+              </Nav.Link>
               <Nav.Link as={Link} to="/projects" style={HeaderTextSize}>
                 Projects
               </Nav.Link>

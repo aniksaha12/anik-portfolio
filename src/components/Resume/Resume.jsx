@@ -3,209 +3,64 @@ import React from "react";
 export default function Resume() {
   return (
     <div>
-      <section id="resume" className="resume">
+      <section id="resume" className="">
         <div className="container">
           <div className="row">
             <div className="col-12">
-              <div className="resume-wrapper">
-                <div className="section-heading-middle">
-                  <h2 className="black-color line-height-3 text-uppercase text-center">
-                    EXPERIENCES
-                  </h2>
-                </div>
-                <div className="row mt-50 row-mobile-margin">
-                  <div className="col-12 col-lg-2">
-                    <div className="resume-topics h-100 flex-column justify-content-center position-relative">
-                      <h3 className="h3 line-height-3 resume-topic-item resume-topic-one fw-500 text-black position-absolute">
+              <div className="card">
+                <div className="card-body">
+                  <div className="d-flex justify-content-between">
+                    <div>
+                      <h3 className="text-lg font-weight-bold text-gray-900">
                         Software Engineer
                       </h3>
-                      <h3 className="h3 line-height-3 resume-topic-item resume-topic-two fw-500 text-black position-absolute">
-                        Software Engineer Intern
-                      </h3>
-                      <h3 className="h3 line-height-3 resume-topic-item resume-topic-three fw-500 text-black position-absolute">
-                        Full-stack Intern
-                      </h3>
+                      <p className="text-lg text-gray-600">
+                        @ Goflysmart Holidays
+                      </p>
                     </div>
+                      <p className="text-lg font-normal text-gray-500">
+                      May 2022 - Present
+                    </p>
                   </div>
-                  <div className="col-lg-4">
-                    <div
-                      className="resume-education bg-white"
-                    >
-                      <div className="row">
-                        {/* education first column */}
-                        <div className="resume-first-item">
-                          <h4 className="h4 text-black fw-500">
-                          Software Engineer Goflysmart Holidays
-                          </h4>
-                          <p className="secondary-black fw-400 line-height-7 mt-2">
-                            (March 2023 - Present)
-                          </p>
-                          <p className="">Skill: </p>
-                        </div>
-                      </div>
+                  <div className="flex flex-row flex-wrap rounded-circle">
+                      <span className="mt-2 me-2 ">
+                        ReactJS
+                      </span>
+                      <span className="mt-2 me-2">
+                        VueJS
+                      </span>
+                      <span className="mt-2 me-2">
+                        TypeScript
+                      </span>
+                      <span className="mt-2 me-2">
+                        MUI
+                      </span>
+                      <span className="mt-2 me-2">
+                        Azure DevOps
+                      </span>
                     </div>
-                    <div
-                      className="resume-skills bg-white mt-4"
-                    >
-                      <div className="row">
-                        {/* skills first column */}
-                        <div className="col-lg-4 resume-first-item">
-                          <h4 className="h4 text-black fw-500">
-                            Frontend Development
-                          </h4>
-                          <div className="row mt-10 justify-content-between">
-                            <p className="col-10 p secondary-black fw-400 line-height-7 skill-name position-relative">
-                              HTML
-                            </p>
-                            <p className="col-2 p secondary-black fw-400 line-height-7">
-                              90%
-                            </p>
-                          </div>
-                          <div className="row justify-content-between mt-10">
-                            <p className="p secondary-black fw-400 line-height-7 col-10 skill-name position-relative">
-                              CSS
-                            </p>
-                            <p className="p col-2 secondary-black fw-400 line-height-7">
-                              85%
-                            </p>
-                          </div>
-                          <div className="row justify-content-between mt-10">
-                            <p className="p secondary-black fw-400 line-height-7 col-10 skill-name position-relative">
-                              Bootstrap
-                            </p>
-                            <p className="p col-2 secondary-black fw-400 line-height-7">
-                              85%
-                            </p>
-                          </div>
-                        </div>
-                        {/* skills second column */}
-                        <div className="col-lg-4 resume-second-item">
-                          <h4 className="h4 text-black fw-500">
-                            Web Development
-                          </h4>
-                          <div className="row mt-10 justify-content-between">
-                            <p className="col-10 p secondary-black fw-400 line-height-7 skill-name position-relative">
-                              Reactjs
-                            </p>
-                            <p className="col-2 p secondary-black fw-400 line-height-7">
-                              90%
-                            </p>
-                          </div>
-                          <div className="row justify-content-between mt-10">
-                            <p className="p secondary-black fw-400 line-height-7 col-10 skill-name position-relative">
-                              Javascript
-                            </p>
-                            <p className="p col-2 secondary-black fw-400 line-height-7">
-                              70%
-                            </p>
-                          </div>
-                          <div className="row justify-content-between mt-10">
-                            <p className="col-10 p secondary-black fw-400 line-height-7 skill-name position-relative">
-                              React Native
-                            </p>
-                            <p className="col-2 p secondary-black fw-400 line-height-7">
-                              50%
-                            </p>
-                          </div>
-                        </div>
-                        {/* skills thirdt column */}
-                        <div className="col-lg-4 resume-third-item">
-                          <h4 className="h4 text-black fw-500">
-                            Backend Development
-                          </h4>
-                          <div className="row mt-10 justify-content-between">
-                            <p className="p secondary-black fw-400 line-height-7 col-10 skill-name position-relative">
-                              Nodejs
-                            </p>
-                            <p className="p col-2 secondary-black fw-400 line-height-7">
-                              80%
-                            </p>
-                            <p className="p secondary-black fw-400 line-height-7 col-10 skill-name position-relative">
-                              Mysql
-                            </p>
-                            <p className="p col-2 secondary-black fw-400 line-height-7">
-                              70%
-                            </p>
-                            <p className="p secondary-black fw-400 line-height-7 col-10 skill-name position-relative">
-                              Azure Cloud
-                            </p>
-                            <p className="p col-2 secondary-black fw-400 line-height-7">
-                              80%
-                            </p>
-                          </div>
-                          {/* <div className="row justify-content-between mt-10">
-                            <p className="p secondary-black fw-400 line-height-7 col-10 skill-name position-relative">
-                              
-                            </p>
-                            <p className="p col-2 secondary-black fw-400 line-height-7">
-                              87%
-                            </p>
-                          </div> */}
-                          {/* <div className="row justify-content-between mt-10">
-                            <p className="p secondary-black fw-400 line-height-7 col-10 skill-name position-relative">
-                              iBuildApp
-                            </p>
-                            <p className="p col-2 secondary-black fw-400 line-height-7">
-                              82%
-                            </p>
-                          </div> */}
-                        </div>
-                      </div>
-                    </div>
-                    {/* resume experience row */}
-                    <div
-                      //   data-aos="fade-up"
-                      //   data-aos-delay={300}
-                      //   data-aos-duration={800}
-                      className="resume-education mt-4 bg-white"
-                    >
-                      <div className="row">
-                        {/* experience first column */}
-                        <div className="col-lg-4 resume-first-item">
-                          <h4 className="h4 text-black fw-500">
-                            Full stack Developer Intern
-                          </h4>
-                          <p className="p secondary-black fw-400 line-height-7 mt-10">
-                            ineuron.ai - (09/2022 - 12/2022)
-                          </p>
-                          <p className="p secondary-black fw-400 line-height-7 mt-20">
-                            Developed the new UI of the shop site using
-                            ReactJs.Developed the connection of admin to the
-                            database. Developed a responsive OTP and Email
-                            verification.Developed two user login systems like
-                            buyers and sellers.
-                          </p>
-                        </div>
-                        {/* experience second column */}
-                        <div className="col-lg-4 resume-second-item">
-                          <h4 className="h4 text-black fw-500">
-                            Software Engineer Intern
-                          </h4>
-                          <p className="p secondary-black fw-400 line-height-7 mt-10">
-                            Goflysmart Holidays - (03/2023 - 04/2023)
-                          </p>
-                          <p className="p secondary-black fw-400 line-height-7 mt-20">
-                            Create a virtual network in Azure cloud service. API
-                            management in the Azure cloud. Create Api in Nodejs.
-                          </p>
-                        </div>
-                        {/* experience third column */}
-                        <div className="col-lg-4 resume-third-item">
-                          <h4 className="h4 text-black fw-500">
-                            Software Engineer
-                          </h4>
-                          <p className="p secondary-black fw-400 line-height-7 mt-10">
-                            Goflysmart Holidays - (04/2023 - Present)
-                          </p>
-                          <p className="p secondary-black fw-400 line-height-7 mt-20">
-                            New flight series application integration in
-                            React.js from scratch. created each and every
-                            functionality for flight booking system. optimize
-                            the application. System architecture in azure cloud
-                            and deploy in it with configure database
-                          </p>
-                        </div>
-                      </div>
+                  <div>
+                  <div className="flex text-lg col-lg-6">
+                    <ul className="max-w-3xl space-y-1 text-gray-500 list-inside">
+                      <li className="flex items-baseline mt-3">
+                        <span>
+                          Developed reusable component for capturing user audio
+                          data using webRTC and Vue.js.
+                        </span>
+                      </li>
+                      <li className="flex items-baseline mt-3">
+                        <span>
+                          Built reusable component and integrate APIs with them
+                          in React.js and TypeScript.
+                        </span>
+                      </li>
+                      <li className="flex items-baseline mt-3">
+                        <span>
+                          Optimised the frontend code of a communication
+                          application to improve web performance.
+                        </span>
+                      </li>
+                    </ul>
                     </div>
                   </div>
                 </div>
