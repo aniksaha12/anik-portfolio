@@ -33,7 +33,7 @@ export default function Projects() {
                             />
                             <img
                               className="img-fluid"
-                              src="img/portfolioOne.png"
+                              src="img/dublicate-picker.png"
                               alt="portfolio img"
                             />
                           </div>
@@ -41,7 +41,7 @@ export default function Projects() {
                       </div>
                       <img
                         className="img-fluid"
-                        src="img/portfolioOne.png"
+                        src="img/dublicate-picker.png"
                         alt="portfolio img"
                       />
                       <div className="portfolio-card-overlay w-100 position-absolute top-0"></div>
@@ -94,7 +94,7 @@ export default function Projects() {
                             />
                             <img
                               className="img-fluid"
-                              src="img/portfolioTwo.png"
+                              src="img/google-docs.png"
                               alt="portfolio img"
                             />
                           </div>
@@ -102,7 +102,7 @@ export default function Projects() {
                       </div>
                       <img
                         className="img-fluid"
-                        src="img/portfolioTwo.png"
+                        src="img/google-docs.png"
                         alt="portfolio img"
                       />
                       <div className="portfolio-card-overlay w-100 position-absolute top-0"></div>
@@ -153,7 +153,7 @@ export default function Projects() {
                             />
                             <img
                               className="img-fluid"
-                              src="img/portfolioThree.png"
+                              src="img/password.png"
                               alt="portfolio img"
                             />
                           </div>
@@ -161,7 +161,7 @@ export default function Projects() {
                       </div>
                       <img
                         className="img-fluid"
-                        src="img/portfolioThree.png"
+                        src="img/password.png"
                         alt="portfolio img"
                       />
                       <div className="portfolio-card-overlay w-100 position-absolute top-0"></div>
@@ -214,7 +214,7 @@ export default function Projects() {
                             />
                             <img
                               className="img-fluid"
-                              src="img/portfolioFour.png"
+                              src="img/ecommerce.png"
                               alt="portfolio img"
                             />
                           </div>
@@ -222,7 +222,7 @@ export default function Projects() {
                       </div>
                       <img
                         className="img-fluid"
-                        src="img/portfolioFour.png"
+                        src="img/ecommerce.png"
                         alt="portfolio img"
                       />
                       <div className="portfolio-card-overlay w-100 position-absolute top-0"></div>
@@ -274,7 +274,7 @@ export default function Projects() {
                             />
                             <img
                               className="img-fluid"
-                              src="img/portfolioFive.png"
+                              src="img/aichat.jpg"
                               alt="portfolio img"
                             />
                           </div>
@@ -282,7 +282,7 @@ export default function Projects() {
                       </div>
                       <img
                         className="img-fluid"
-                        src="img/portfolioFive.png"
+                        src="img/aichat.jpg"
                         alt="portfolio img"
                       />
                       <div className="portfolio-card-overlay w-100 position-absolute top-0"></div>

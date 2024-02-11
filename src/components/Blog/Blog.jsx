@@ -183,11 +183,14 @@ export default function Blog() {
                     />
                   </div>
                   <div className="card-body blog-card-body">
-                    <p className="p font-urbanist line-height-7 blog-card-date fw-400 mb-20">
-                      October 2020
+                    <p className="p font-urbanist line-height-7 blog-card-date fw-600 mb-20">
+                      Published in: 2020 IEEE Bangalore Humanitarian Technology
+                      Conference (B-HTC)
                     </p>
                     <p className="black-color h5font-urbanist line-height-7 blog-card-date fw-600 mb-20">
-                      DOI:10.1109/B-HTC50970.2020.9297980
+                      <a href="https://ieeexplore.ieee.org/document/9297980">
+                        DOI:10.1109/B-HTC50970.2020.9297980
+                      </a>
                     </p>
                     <a>
                       <span className="card-title h5 fw-600 line-height-3 black-color">

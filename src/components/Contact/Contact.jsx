@@ -14,6 +14,7 @@ export default function Contact() {
                       Contact Me
                     </h2>
                   </div>
+                 
                   <div className="contact-grid-container mt-1 d-flex align-items-center">
                     <div className="contact-grid-item text-center">
                       <a href="https://github.com/aniksaha12" target="_blank">
