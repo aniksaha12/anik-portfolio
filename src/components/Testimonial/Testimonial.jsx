@@ -8,8 +8,9 @@ export default function Testimonial() {
     {
       name: "Deepankar Mondal",
       title: "Teach Lead @Tripfactory",
-      text: "I've had the pleasure of working alongside Anik Saha, and I wholeheartedly recommend him. Anik is a dynamic all-rounder, consistently embracing new technologies with enthusiasm. His dedication to delivering top-tier work and his exceptional teamwork make him a standout colleague. Anik's positive attitude and continuous pursuit of excellence make him an asset to any project." +
-          " Highly recommend Anik for his skills, eagerness to learn, and collaborative spirit! ",
+      text:
+        "I've had the pleasure of working alongside Anik Saha, and I wholeheartedly recommend him. Anik is a dynamic all-rounder, consistently embracing new technologies with enthusiasm. His dedication to delivering top-tier work and his exceptional teamwork make him a standout colleague. Anik's positive attitude and continuous pursuit of excellence make him an asset to any project." +
+        " Highly recommend Anik for his skills, eagerness to learn, and collaborative spirit! ",
       image: "img/deepankar.jpg",
     },
 
@@ -18,13 +19,7 @@ export default function Testimonial() {
       title: "Frontend @P360",
       text: "I highly recommend Anik Saha as a Software Engineer. During our time working together on various college projects, Anik consistently demonstrated exceptional problem-solving abilities and technical expertise. His dedication to finding innovative solutions and his strong grasp of technical concepts make him an invaluable asset to any team. Anik's commitment to excellence and his positive attitude make him a pleasure to work with. Any organization would be fortunate to have him on their team.",
       image: "img/debajit.jpg",
-    }
-    // {
-    //   name: "Debarshi Dey",
-    //   title: "System Developer @appycodes",
-    //   text: "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature fr45 BC, making it over 2000 years old.",
-    //   image: "img/debarshi.jpg",
-    // },
+    },
   ];
 
   const settings = {
@@ -34,7 +29,7 @@ export default function Testimonial() {
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 4000
+    autoplaySpeed: 4000,
   };
 
   return (
