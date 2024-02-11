@@ -58,7 +58,7 @@ export default function Blog() {
                   <div className="card p-0 blog-card">
                     <div className="img-overlay">
                       <img
-                        src="img/datatype.webp"
+                        src="img/datatype.png"
                         className="card-img-top img-fluid blog-card-img"
                         alt="blog image"
                       />
@@ -94,7 +94,7 @@ export default function Blog() {
                   <div className="card p-0 blog-card">
                     <div className="img-overlay">
                       <img
-                        src="img/jsloop.jpg"
+                        src="img/loop.png"
                         className="card-img-top img-fluid blog-card-img"
                         alt="blog image"
                       />
