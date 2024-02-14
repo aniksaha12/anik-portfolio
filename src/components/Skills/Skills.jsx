@@ -19,7 +19,7 @@ export default function Skills() {
                       className="html-item-img"
                       src="img/html.png"
                       alt="html-img-one"
-                      style={{ width: "140px", height: "120px" }}
+                      style={{ width: "150px", height: "130px" }}
                     />
                   </div>
                   <div className="service-grid-item text-center">
@@ -27,7 +27,7 @@ export default function Skills() {
                       className="css-item-img"
                       src="img/css3.png"
                       alt="css-img-one"
-                      style={{ width: "140px", height: "120px" }}
+                       style={{ width: "150px", height: "130px" }}
                     />
                   </div>
                   <div className="service-grid-item text-center">
@@ -35,7 +35,7 @@ export default function Skills() {
                       className="javascript-item-img"
                       src="img/javascript.png"
                       alt="javascript-img-one"
-                      style={{ width: "140px", height: "120px" }}
+                       style={{ width: "150px", height: "130px" }}
                     />
                   </div>
                   <div className="service-grid-item text-center">
@@ -43,7 +43,7 @@ export default function Skills() {
                       className="typescript-item-img"
                       src="img/typescript.png"
                       alt="typescript-img-one"
-                      style={{ width: "140px", height: "120px" }}
+                       style={{ width: "150px", height: "130px" }}
                     />
                   </div>
                   <div className="service-grid-item text-center">
@@ -51,7 +51,7 @@ export default function Skills() {
                       className="reactjs-item-img"
                       src="img/reactjs.png"
                       alt="reactjs1-img-one"
-                      style={{ width: "140px", height: "120px" }}
+                       style={{ width: "150px", height: "130px" }}
                     />
                   </div>
                   <div className="service-grid-item text-center">
@@ -59,7 +59,7 @@ export default function Skills() {
                       className="nodejs-item-img"
                       src="img/nodejs.png"
                       alt="nodejs-img-one"
-                      style={{ width: "140px", height: "120px" }}
+                       style={{ width: "150px", height: "130px" }}
                     />
                   </div>
                   <div className="service-grid-item text-center">
@@ -67,7 +67,7 @@ export default function Skills() {
                       className="azure-item-img"
                       src="img/azure.png"
                       alt="azure-img-one"
-                      style={{ width: "140px", height: "120px" }}
+                       style={{ width: "150px", height: "130px" }}
                     />
                   </div>
                   <div className="service-grid-item text-center">
@@ -75,7 +75,7 @@ export default function Skills() {
                       className="Nextjs-item-img"
                       src="img/Nextjs.png"
                       alt="Nextjs-img-one"
-                      style={{ width: "140px", height: "120px" }}
+                       style={{ width: "150px", height: "130px" }}
                     />
                   </div>
                   <div className="service-grid-item text-center">
@@ -83,7 +83,7 @@ export default function Skills() {
                       className="Nextjs-item-img"
                       src="img/expressjs.png"
                       alt="Nextjs-img-one"
-                      style={{ width: "140px", height: "120px" }}
+                       style={{ width: "150px", height: "130px" }}
                     />
                   </div>
                   <div className="service-grid-item text-center">
@@ -91,7 +91,7 @@ export default function Skills() {
                       className="Nextjs-item-img"
                       src="img/mongodb.png"
                       alt="Nextjs-img-one"
-                      style={{ width: "140px", height: "120px" }}
+                       style={{ width: "150px", height: "130px" }}
                     />
                   </div>
                   <div className="service-grid-item text-center">
@@ -99,7 +99,7 @@ export default function Skills() {
                       className="Nextjs-item-img"
                       src="img/mysql.png"
                       alt="Nextjs-img-one"
-                      style={{ width: "140px", height: "120px" }}
+                       style={{ width: "150px", height: "130px" }}
                     />
                   </div>
                   <div className="service-grid-item text-center">
@@ -107,7 +107,7 @@ export default function Skills() {
                       className="Nextjs-item-img"
                       src="img/firebase.png"
                       alt="Nextjs-img-one"
-                      style={{ width: "140px", height: "120px" }}
+                       style={{ width: "150px", height: "130px" }}
                     />
                   </div>
                 </div>
