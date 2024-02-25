@@ -160,6 +160,39 @@ export default function Blog() {
                       </a>
                     </div>
                   </div>
+                  <div className="card p-0 blog-card">
+                    <div className="img-overlay">
+                      <img
+                        src="img/useEffect.jpeg"
+                        className="card-img-top img-fluid blog-card-img"
+                        alt="blog image"
+                      />
+                    </div>
+                    <div className="card-body blog-card-body">
+                      <p className="p font-urbanist line-height-7 blog-card-date fw-400 mb-20">
+                        25 February, 2024
+                      </p>
+                      <a>
+                        <span className="card-title h5 fw-600 line-height-3 black-color">
+                          When to Use React Query or useEffect for Data
+                          Fetching.
+                        </span>
+                      </a>
+                      <a>
+                        <div className="blog-card-btn d-flex align-items-center mt-4">
+                          <a
+                            href="https://dev.to/aniksaha12/when-to-use-react-query-or-useeffect-for-data-fetching-42an"
+                            target="_blank"
+                          >
+                            <span className="blog-card-btn-text mr-10 .font-urbanist fw-600 line-height-7 orange-color">
+                              Read More
+                            </span>
+                          </a>
+                          <i className="fa-solid fa-arrow-right" />
+                        </div>
+                      </a>
+                    </div>
+                  </div>
                 </div>
               </div>
               <div className="section-heading-middle mt-5">
