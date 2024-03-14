@@ -69,9 +69,7 @@ export default function Blog() {
                       </p>
                       <a>
                         <span className="card-title h5 fw-600 line-height-3 black-color">
-                          Programming languages all have built-in data
-                          structures, but these often differ from one language
-                          to another. This article attempts to list the built-in
+                           This article attempts to list the built-in
                           data structures available in JavaScript and what
                           properties they have.
                         </span>
