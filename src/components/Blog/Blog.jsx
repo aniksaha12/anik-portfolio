@@ -69,9 +69,9 @@ export default function Blog() {
                       </p>
                       <a>
                         <span className="card-title h5 fw-600 line-height-3 black-color">
-                           This article attempts to list the built-in
-                          data structures available in JavaScript and what
-                          properties they have.
+                          This article attempts to list the built-in data
+                          structures available in JavaScript and what properties
+                          they have.
                         </span>
                       </a>
                       <a>
