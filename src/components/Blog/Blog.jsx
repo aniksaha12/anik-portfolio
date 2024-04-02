@@ -205,7 +205,7 @@ export default function Blog() {
                       </p>
                       <a>
                         <span className="card-title h5 fw-600 line-height-3 black-color">
-                        How to optimize SQL queries
+                          How to optimize SQL queries
                         </span>
                       </a>
                       <a>
