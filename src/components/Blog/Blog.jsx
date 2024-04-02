@@ -191,6 +191,38 @@ export default function Blog() {
                       </a>
                     </div>
                   </div>
+                  <div className="card p-0 blog-card">
+                    <div className="img-overlay">
+                      <img
+                        src="img/sqlimage.jpeg"
+                        className="card-img-top img-fluid blog-card-img"
+                        alt="blog image"
+                      />
+                    </div>
+                    <div className="card-body blog-card-body">
+                      <p className="p font-urbanist line-height-7 blog-card-date fw-400 mb-20">
+                        29 March, 2024
+                      </p>
+                      <a>
+                        <span className="card-title h5 fw-600 line-height-3 black-color">
+                        How to optimize SQL queries
+                        </span>
+                      </a>
+                      <a>
+                        <div className="blog-card-btn d-flex align-items-center mt-4">
+                          <a
+                            href="https://dev.to/aniksaha12/how-to-optimize-sql-queries-3517"
+                            target="_blank"
+                          >
+                            <span className="blog-card-btn-text mr-10 .font-urbanist fw-600 line-height-7 orange-color">
+                              Read More
+                            </span>
+                          </a>
+                          <i className="fa-solid fa-arrow-right" />
+                        </div>
+                      </a>
+                    </div>
+                  </div>
                 </div>
               </div>
               <div className="section-heading-middle mt-5">
