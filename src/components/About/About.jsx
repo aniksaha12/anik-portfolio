@@ -19,7 +19,7 @@ export default function About() {
                     </div>
                   </div>
                   <h5 className="secondary-black line-height-7 mt-20">
-                    I'm 23 years old <strong>Software Engineer.</strong> My
+                    I'm 24 years old <strong>Software Engineer.</strong> My
                     expertise is in{" "}
                     <strong>
                       Frontend Web Development as well as backend.
