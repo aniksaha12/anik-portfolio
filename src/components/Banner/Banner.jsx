@@ -19,9 +19,9 @@ export default function Banner() {
                 </h1>
               </div>
               <p className="h4 line-height-7 mt-20 secondary-black fw-400 sm-p">
-                I'm <strong>Anik Saha,</strong> a Software Engineer at <strong>Goflysmart Holidays.</strong>  My
-                focus is on crafting user-friendly web applications that are
-                widely accepted. I utilize tools like <strong>React.js </strong> and <strong>Node.js</strong>.
+                I'm <strong>Anik Saha,</strong> a Software Engineer at <strong>Tripfactory.</strong>  My
+                focus is on crafting user-friendly web applications that are widely accepted.
+{/*                 widely accepted. I utilize tools like <strong>React.js </strong> and <strong>Node.js</strong>. */}
               </p>
               {/* <a
                 className="btn_effect btn home-banner-btn orange-btn mt-50"
